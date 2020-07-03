@@ -287,7 +287,7 @@
 								<label class="sr-only" for="exampleInputEmail3">Mensagem</label>
 								<input class="form-control" id="email" placeholder="Mensagem">
 							  </div>
-							  <button onclick="window.open('mailto:ricardo.calejo@devscope.net?subject=Contact Power Platform Portugal&body=" + getBody() + "');" class="btn btn-primary">Enviar</button>
+							  <button onclick="getBody()" class="btn btn-primary">Enviar</button>
 						</div>
 					</div>			
 
@@ -329,7 +329,9 @@
 	<script src="js/main.js"></script>
 	<script type="text/javascript">
 		function getBody(){
-			return document.getElementById('email').value;
+			var body = document.getElementById('email').value;
+			var url = "mailto:ricardo.calejo@devscope.net?subject=Contact Power Platform Portugal&body=" + email;
+			window.open(url);
 		}
 	</script>
 	</body>
