@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Cube &mdash; Free Website Template, Free HTML5 Template by FreeHTML5.co</title>
+	<title>Power Platform Portugal</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Comunidade Portuguesa de Microsoft Power Platform" />
 	<meta name="keywords" content="powerapps, power platform, power automate, virtual agents, power bi, microsoft, comunidade, portuguesa" />
@@ -69,7 +69,7 @@
 							<li class="active"><a href="#about">Inicio</a></li>
 							<!--<li><a href="about.html">About</a></li>-->
 							<li class="has-dropdown">
-								<a href="#pp">Power Platform</a>
+								<a href="#pp"><b>Power Platform</b></a>
 								<ul class="dropdown">
 									<li><a href="#pwa">Power Apps</a></li>
 									<li><a href="#pwt">Power Automate</a></li>
@@ -287,7 +287,7 @@
 								<label class="sr-only" for="exampleInputEmail3">Mensagem</label>
 								<input class="form-control" id="email" placeholder="Mensagem">
 							  </div>
-							  <button onclick="window.open('mailto:ricardo.calejo@devscope.net?subject=Contact Power Platform Portugal&body=" + document.getElementById('email').value + "');" class="btn btn-primary">Enviar</button>
+							  <button onclick="window.open('mailto:ricardo.calejo@devscope.net?subject=Contact Power Platform Portugal&body=" + getBody() + "');" class="btn btn-primary">Enviar</button>
 						</div>
 					</div>			
 
@@ -327,7 +327,11 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<script type="text/javascript">
+		function getBody(){
+			return document.getElementById('email').value;
+		}
+	</script>
 	</body>
 </html>
 
