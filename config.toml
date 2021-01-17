@@ -1,9 +1,9 @@
 # default configuration
-baseURL = "http://examplesite.com"
+baseURL = "http://www.powerplatformportugal.pt"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
+title = "Power Platform Portugal"
 
 # css plugins
 [[params.plugins.css]]
@@ -65,7 +65,7 @@ description = "This is meta description"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021 Power Platform Portugal"
 
 
 # preloader
