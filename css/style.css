@@ -113,9 +113,14 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
+
 }
 .gtco-nav #gtco-logo em {
   color: #17B794;
+}
+
+.gtco-nav #gtco-logo img {
+  max-width: 100px;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav .menu-1, .gtco-nav .menu-2 {
