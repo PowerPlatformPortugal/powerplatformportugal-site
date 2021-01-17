@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://www.powerplatformportugal.pt"
+baseURL = "https://www.powerplatformportugal.pt"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
