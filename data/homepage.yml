@@ -122,7 +122,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"

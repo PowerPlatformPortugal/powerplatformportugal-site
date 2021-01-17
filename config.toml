@@ -39,8 +39,8 @@ name = "Blog"
 weight = 2
 
 [[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
+URL = "meetups"
+name = "Meetups"
 weight = 3
 
 [[menu.main]]
@@ -56,12 +56,12 @@ logo = ""
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+phone = "TBD"
+email = "us@powerplatformportugal.pt"
+address = "TBD"
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "Ricardo Calejo"
+description = "TDB"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright

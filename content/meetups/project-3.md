@@ -1,10 +1,10 @@
 ---
 title: "Artwork Design"
 date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-2.png"
+image: "images/meetups/item-3.png"
 client: "John Doe"
 project_url : "https://themefisher.com/"
-categories: ["branding"]
+categories: ["Power Apps","Power Automate", "Power Virtual Agents", "Power BI"]
 description: "This is meta description."
 draft: false
 ---

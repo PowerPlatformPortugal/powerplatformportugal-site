@@ -21,21 +21,38 @@ team:
   enable: true
   title : "My Team"
   team_member:
-    - title : "Jack Schenziwe"
+    - title : "Manuel Dias"
       image : "images/team/member-1.png"
-      designation : "Project Manager"
+      designation : "Microsoft NTO"
       
-    - title : "Julias Carlie"
+    - title : "Rodrigo Umbelino"
       image : "images/team/member-2.png"
-      designation : "Web Developer"
+      designation : "TBD"
       
-    - title : "John Doe"
+    - title : "Ricardo Calejo"
       image : "images/team/member-3.png"
-      designation : "Designer"
+      designation : "TBD"
+      
+    - title : "Miguel Oliveira"
+      image : "images/team/member-1.png"
+      designation : "TBD"
+      
+    - title : "Sérgio Viana"
+      image : "images/team/member-2.png"
+      designation : "TBD"
+      
+    - title : "Pedro Pardal"
+      image : "images/team/member-3.png"
+      designation : "TBD"
+
+    - title : "Rúben Veloso"
+      image : "images/team/member-1.png"
+      designation : "TBD"
 
 
 # client logo slider
+# not being used
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "My Clients"
   # clients logo comes from 'data/homepage.yml' file
