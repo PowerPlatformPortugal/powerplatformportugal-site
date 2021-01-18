@@ -1,36 +1,36 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Power Platform"
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Power Apps"
+    icon : "images/icons/powerapps.png"
+    content : "PowerApps is a tool that allows you to create custom apps, leveraging many of the features of the Office 365 and Microsoft platform. Apps can be accessed via mobile devices or via the browser."
     
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Power Automate"
+    icon : "images/icons/powerautomate.png"
+    content : "Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more."
     
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Power Virtual Agents"
+    icon : "images/icons/powerva.png"
+    content : "Power Virtual Agents lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service. These bots can be created easily without the need for data scientists or developers."
 
 
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "Our Team"
   team_member:
     - title : "Manuel Dias"
-      image : "images/team/member-1.png"
+      image : "images/about/manuel.dias.jfif"
       designation : "Microsoft NTO"
       
     - title : "Rodrigo Umbelino"
-      image : "images/team/member-2.png"
+      image : "images/about/rodrigo.umbelino.jfif"
       designation : "TBD"
       
     - title : "Ricardo Calejo"
-      image : "images/team/member-3.png"
+      image : "images/about/ricardo.calejo.png"
       designation : "TBD"
       
     - title : "Miguel Oliveira"
@@ -38,15 +38,15 @@ team:
       designation : "TBD"
       
     - title : "Sérgio Viana"
-      image : "images/team/member-2.png"
+      image : "images/about/sergio.viana.jfif"
       designation : "TBD"
       
     - title : "Pedro Pardal"
-      image : "images/team/member-3.png"
+      image : "images/about/pedro.pardal.jfif"
       designation : "TBD"
 
     - title : "Rúben Veloso"
-      image : "images/team/member-1.png"
+      image : "images/about/ruben.veloso.jfif"
       designation : "TBD"
 
 
