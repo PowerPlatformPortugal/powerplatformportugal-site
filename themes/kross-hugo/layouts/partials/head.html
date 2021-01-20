@@ -18,7 +18,8 @@
   {{ range site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }} ">
   {{ end }}
-
+  <script src="https://kit.fontawesome.com/fc4593c62b.js" crossorigin="anonymous"></script>
+  
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">

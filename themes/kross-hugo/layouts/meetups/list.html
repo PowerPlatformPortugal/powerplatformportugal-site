@@ -32,7 +32,7 @@
           <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
+              <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view {{.Params.title}}</a>
             </div>
           </div>
         </div>

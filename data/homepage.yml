@@ -11,30 +11,30 @@ about:
     label : "know more"
     URL : "about"
 
-# skill
+# technology
 skill:
   enable : true
-  title : "Skills"
+  title : "Technology"
   item:
-    - title : "Web Design"
+    - title : "PowerApps"
+      progress : "95%"
+      color : "#932D89"
+      
+    - title : "Power Automate"
       progress : "90%"
-      color : "#fdb157"
+      color : "#1048C3"
       
-    - title : "Logo Design"
-      progress : "60%"
-      color : "#9473e6"
+    - title : "Power Virtual Agents"
+      progress : "85%"
+      color : "#0F6B83"
       
-    - title : "After Effects"
-      progress : "80%"
-      color : "#bdecf6"
-      
-    - title : "Web App"
+    - title : "Power BI"
       progress : "70%"
-      color : "#ffbcaa"
+      color : "#DFA210"
 
 # experience
 experience:
-  enable : true
+  enable : false
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
@@ -52,30 +52,22 @@ experience:
       company : "THEMEFISHER"
       duration : "Sep 2014 - Present"
 
-# education
+# timelinke
 education:
   enable : true
-  title : "Education"
+  title : "Timeline"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
+    - title : "Power Platform Portugal is born"
+      year : "2021-21-01"
+      academy : "A group of enthusiasts found PPPT"
       
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
+    - title : "Meetup #1"
+      year : "2021-02-11"
+      academy : "First meetup about Power Platform"
       
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
-
 # service
 service:
-  enable : true
+  enable : false
   title : "Services"
   item:
     - title : "UI Design"
@@ -95,14 +87,14 @@ service:
 
 # portfolio
 portfolio:
-  enable : true
+  enable : false
   title : "Portfolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
