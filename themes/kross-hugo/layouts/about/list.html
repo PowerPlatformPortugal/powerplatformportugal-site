@@ -48,9 +48,9 @@
       </div>
       {{ range .item }}
       <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ .icon | absURL }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ .title }}</h4>
-        <p>{{ .content | markdownify }}</p>
+          <img src="{{ .icon | absURL }}" class="mb-4" alt="icon">
+          <h4 class="mb-4">{{ .title }}</h4>
+          <p>{{ .content | markdownify }}</p>
       </div>
       {{ end }}
     </div>
@@ -72,11 +72,13 @@
       {{ range .team_member }}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
+          <a href="{{ .linkedinUrl | absURL }}">
           <img src="{{ .image | absURL }}" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">{{.title }}</h4>
             <p class="text-light font-secondary">{{.designation }}</p>
           </div>
+        </a>
         </div>
       </div>
       {{ end }}

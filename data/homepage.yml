@@ -1,11 +1,11 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
-
+  title : "We are Power Platform Portugal"
+  
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Welcome to Power Platform Portugal! We are a community of #PowerAddicts that love to use the Power Platform to streamline end-to-end business solutions. We are mainly focused on Power Apps, Power Automate and Power Virtual Agents, and how these components can work together with Power BI to act on your data and insights even quicker."
   button:
     enable : true
     label : "know more"

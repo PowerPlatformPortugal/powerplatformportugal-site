@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "Welcome to Power Platform Portugal"
-author_image : "images/about/pppt.png"
+author_image : "images/about/powerplatptlogo.png"
 author_signature : "images/about/signature.png"
 draft: false
 ---

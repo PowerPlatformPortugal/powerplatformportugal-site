@@ -52,7 +52,7 @@ weight = 4
 # default parameters
 [params]
 home = "Home"
-logo = ""
+logo = "images/about/powerplatpt.png"
 # theme color
 theme_color = "#41228e"
 # contact info

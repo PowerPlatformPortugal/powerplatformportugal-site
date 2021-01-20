@@ -15,6 +15,10 @@ work_process:
     icon : "images/icons/powerva.png"
     content : "Power Virtual Agents lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service. These bots can be created easily without the need for data scientists or developers."
 
+  - title : "Power BI"
+    icon : "images/icons/powerbi.png"
+    content : "Connect to and visualize any data using the unified, scalable platform for self-service and enterprise business intelligence (BI) that’s easy to use and helps you gain deeper data insight."
+
 
 # team
 team:
@@ -23,31 +27,38 @@ team:
   team_member:
     - title : "Manuel Dias"
       image : "images/about/manuel.dias.jfif"
-      designation : "Microsoft NTO"
+      designation : "Nation Technology Officer at Microsoft"
+      linkedinUrl: "https://www.linkedin.com/in/mdias/"
       
     - title : "Rodrigo Umbelino"
       image : "images/about/rodrigo.umbelino.jfif"
-      designation : "TBD"
+      designation : "Intelligence Technical Specialist at Microsoft"
+      linkedinUrl: "https://www.linkedin.com/in/umb/"
       
     - title : "Ricardo Calejo"
       image : "images/about/ricardo.calejo.png"
-      designation : "TBD"
+      designation : "Portals Team Manager at DevScope"
+      linkedinUrl: "https://www.linkedin.com/in/ricardocalejo/"
       
     - title : "Miguel Oliveira"
-      image : "images/team/member-1.png"
-      designation : "TBD"
+      image : "images/about/miguel.oliveira.jfif"
+      designation : "Partner Technical Architect at Microsoft"
+      linkedinUrl: "https://www.linkedin.com/in/miguelperdigaodeoliveira/"
       
     - title : "Sérgio Viana"
       image : "images/about/sergio.viana.jfif"
-      designation : "TBD"
+      designation : "Partner and Digital Xperience Lead at Xpand-IT"
+      linkedinUrl: "https://www.linkedin.com/in/sviana/"
       
     - title : "Pedro Pardal"
       image : "images/about/pedro.pardal.jfif"
-      designation : "TBD"
+      designation : "Solution Architect at SHIFT Consulting"
+      linkedinUrl: https://www.linkedin.com/in/ppardal/"
 
     - title : "Rúben Veloso"
       image : "images/about/ruben.veloso.jfif"
-      designation : "TBD"
+      designation : "Team Manager | Collaboration & Productivity at Armis"
+      linkedinUrl: "https://www.linkedin.com/in/rubenveloso/"
 
 
 # client logo slider
