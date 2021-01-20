@@ -23,7 +23,7 @@ work_process:
 # team
 team:
   enable: true
-  title : "Our Team"
+  title : "Team"
   team_member:
     - title : "Manuel Dias"
       image : "images/about/manuel.dias.jfif"
