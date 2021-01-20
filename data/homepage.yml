@@ -16,7 +16,7 @@ skill:
   enable : true
   title : "Technology"
   item:
-    - title : "PowerApps"
+    - title : "Power Apps"
       progress : "95%"
       color : "#932D89"
       
