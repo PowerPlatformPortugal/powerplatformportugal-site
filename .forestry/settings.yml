@@ -5,26 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/contact
-  label: Contact
+  path: content/meetups
+  label: Meetups
   create: all
   match: "**/*"
   new_doc_ext: md
 - type: directory
   path: content/blog
   label: Blog
-  create: all
-  match: "**/*"
-  new_doc_ext: md
-- type: directory
-  path: content/about
-  label: About
-  create: all
-  match: "**/*"
-  new_doc_ext: md
-- type: directory
-  path: content/meetups
-  label: Meetups
   create: all
   match: "**/*"
   new_doc_ext: md
@@ -36,6 +24,18 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
+- type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+  new_doc_ext: md
+- type: directory
+  path: content/about
+  label: About
+  create: all
+  match: "**/*"
+  new_doc_ext: md
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
