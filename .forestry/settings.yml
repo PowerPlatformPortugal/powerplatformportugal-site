@@ -5,6 +5,18 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
+  path: content/about
+  label: About
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
   path: content/meetups
   label: Meetups
   create: all
