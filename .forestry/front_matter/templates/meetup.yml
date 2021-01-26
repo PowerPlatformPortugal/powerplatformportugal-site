@@ -25,3 +25,5 @@ fields:
   type: tag_list
   default: []
   label: Categories
+pages:
+- content/meetups/teste.md
