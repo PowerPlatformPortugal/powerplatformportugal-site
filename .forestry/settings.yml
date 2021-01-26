@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
   path: content/blog
   label: Blog
   create: all
