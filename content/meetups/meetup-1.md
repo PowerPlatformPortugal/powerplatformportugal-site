@@ -1,8 +1,9 @@
 ---
 title: "Meetup #1"
-date: 2021-02-11T12:14:34+06:00
+date: 2021-02-04
 image: "/images/meetup1.png"
 categories: ["power automate", "powerbi", "power apps", "power virtual agents"]
+order: 1
 draft: false
 ---
 

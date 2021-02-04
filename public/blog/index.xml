@@ -1,70 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on My New Hugo Site</title>
-    <link>http://example.org/blog/</link>
-    <description>Recent content in Blog on My New Hugo Site</description>
+    <title>Blog on Power Platform Portugal</title>
+    <link>https://www.powerplatformportugal.pt/blog/</link>
+    <description>Recent content in Blog on Power Platform Portugal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jan 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://www.powerplatformportugal.pt/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Amazon increase income 1.5 Million</title>
-      <link>http://example.org/blog/post-1/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>Approvals app now available on Microsoft Teams</title>
+      <link>https://www.powerplatformportugal.pt/blog/post-1/</link>
+      <pubDate>Mon, 20 Jan 2020 12:14:34 +0600</pubDate>
       
-      <guid>http://example.org/blog/post-1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>https://www.powerplatformportugal.pt/blog/post-1/</guid>
+      <description>Approvals in Microsoft Teams allows you to quickly and easily create, manage and share approvals directly from your hub for teamwork.</description>
     </item>
     
     <item>
-      <title>Amazon increase income 1.5 Million</title>
-      <link>http://example.org/blog/post-2/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>Power Virtual Agents support for Teams channel Single Sign-on is available in Public Preview</title>
+      <link>https://www.powerplatformportugal.pt/blog/post-3/</link>
+      <pubDate>Mon, 20 Jan 2020 12:14:34 +0600</pubDate>
       
-      <guid>http://example.org/blog/post-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>https://www.powerplatformportugal.pt/blog/post-3/</guid>
+      <description>Power Virtual Agents (PVA) already supports Web channel SSO, and today we are announcing the Public Preview of PVA support for Teams channel SSO when using Azure AD.</description>
     </item>
     
     <item>
-      <title>Amazon increase income 1.5 Million</title>
-      <link>http://example.org/blog/post-3/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>Source code files for Canvas apps</title>
+      <link>https://www.powerplatformportugal.pt/blog/post-2/</link>
+      <pubDate>Mon, 20 Jan 2020 12:14:34 +0600</pubDate>
       
-      <guid>http://example.org/blog/post-3/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Amazon increase income 1.5 Million</title>
-      <link>http://example.org/blog/post-4/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>http://example.org/blog/post-4/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Amazon increase income 1.5 Million</title>
-      <link>http://example.org/blog/post-5/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>http://example.org/blog/post-5/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Amazon increase income 1.5 Million</title>
-      <link>http://example.org/blog/post-6/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>http://example.org/blog/post-6/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>https://www.powerplatformportugal.pt/blog/post-2/</guid>
+      <description>Imagine using GitHub with a Canvas app. And I mean using GitHub as it was meant to be used, with text diffs between versions, and not just storing opaque .</description>
     </item>
     
   </channel>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Source code files for Canvas apps</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Imagine using GitHub and Visual Studio Code with the text formulas of a Canvas app.  Teams can collaborate on apps: they can work on private branches, diff changes, create pull requests for review, and merge into master. We are very pleased to announce the experimental release of a tool that enables these modern miracles.  It is but the first step as we make application lifecycle management easier for formulas and Canvas apps.">
+  <meta name="author" content="Ricardo Calejo">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <style>
+    :root{
+      --primary-color:#41228e;
+    }
+  </style>
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://www.powerplatformportugal.pt/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://www.powerplatformportugal.pt/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://www.powerplatformportugal.pt/plugins/themify-icons/themify-icons.css ">
+  
+  <script src="https://kit.fontawesome.com/fc4593c62b.js" crossorigin="anonymous"></script>
+  
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://www.powerplatformportugal.pt/css/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://www.powerplatformportugal.pt/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://www.powerplatformportugal.pt/images/favicon.png " type="image/x-icon">
+
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://www.powerplatformportugal.pt">
+      
+      <img src="https://www.powerplatformportugal.pt/images/about/powerplatpt.png" alt="Power Platform Portugal">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.powerplatformportugal.pt"> Home </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://www.powerplatformportugal.pt/about">About</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://www.powerplatformportugal.pt/blog">Blog</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://www.powerplatformportugal.pt/meetups">Meetups</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://www.powerplatformportugal.pt/contact">Contact Us</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+  
+<section class="page-title bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Source code files for Canvas apps</h1>
+      </div>
+    </div>
+  </div>
+  
+  <img src="/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="/images/illustrations/powerapps-small.svg" alt="illustrations" class="bg-shape-4">
+  
+  <img src="/images/illustrations/powerautomate.svg" alt="illustrations" class="bg-shape-3">
+  
+  <img src="/images/illustrations/dots-group-cyan.svg" alt="illustrations" class="bg-shape-6">
+  <img src="/images/illustrations/powerva.svg" alt="illustrations" class="bg-shape-6">
+</section>
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9 text-center mb-4">
+          <img src="https://www.powerplatformportugal.pt/images/blog/powerapps-canvas.gif" alt="Source code files for Canvas apps" class="img-fluid rounded mb-4">
+          <p class="font-secondary">Published on Jan 20, 2020 by <span class="text-primary">Ricardo Calejo</span></p>
+        </div>
+        <div class="col-lg-9">
+          <div class="content">
+            <p>Imagine using GitHub with a Canvas app.  And I mean using GitHub as it was meant to be used, with text diffs between versions, and not just storing opaque .msapp blobs.   Teams can collaborate on apps: they can work on private branches, diff changes, create pull requests for review, and merge into master.</p>
+<p>Imagine using Visual Studio Code with a Canvas app, a full screen editor with search and replace.</p>
+<p>We are very pleased to announce the experimental release of a tool that enables these modern miracles.  It is but the first step as we make application lifecycle management easier for formulas and Canvas apps.</p>
+<p>To illustrate, in this short video we will change the Icon property of an Icon control with these steps:</p>
+<p>Export an app as an .msapp file with Save As.
+Unpack the .msapp to individual source files using our new tool.
+Make a simple change to a formula using Visual Studio Code.
+Pack the modified source files back into an .msapp file.
+Open the modified .msapp file in Studio and see the result of my change.</p>
+<p>This new tool enables the source code of a Canvas app to be effectively managed in GitHub or Azure DevOps.  Diffs, pull requests, and comments can be based on lines of formula text rather than .msapp blob files.</p>
+<p>In this next example, we’ll make the same change to the Canvas app stored in GitHub as text source code files.  We’ll go through all the steps required to manage the change, have it reviewed, commented on, merged in to master, and the result tested.</p>
+<p>We’ll work with this GitHub repo in Visual Studio Code.  First we’ll create a new branch, make modifications there (change the icon from “Person” to “People”), and push the changes to our new branch on GitHub.</p>
+<p>Back on GitHub, we’ll create a pull request for this new branch to merge into master.  We’ll have an opportunity to review the one line change, to comment on the change, and to approve the merge.  Canvas apps become a part of your existing application lifecycle management workflow.</p>
+<p>And after the merge has been made, we sync changes back to our client and recreate the .msapp file.  We can now load the file into Power Apps Studio and see our change.</p>
+<p>Excited?  These examples only scratches the surface of what is possible.  By supporting text files, all the tools that you love and all the unique workflows that you have created can now be used with Canvas apps too.</p>
+<p>Limitations
+But before you get too excited, let’s reiterate that this is experimental.  We are making this available now for your feedback and to find issues.</p>
+<p>Please do not convert all your .msapp files to source files and throw away the originals.  We are working toward a day when you can do this, but that is not today.   By far, Power Apps Studio is still the best place to edit a Canvas app.  We are introducing a new way to manage and edit Canvas apps, a companion to Studio, not a replacement.</p>
+<p>There are some known limitations and gotchas:</p>
+<p>Outside of Studio, don’t add a control with the same name as one that already exists.  This can happen easily if two different authors use Power Apps Studio to add a button control, resulting in two different Button1 controls.  When collaborating with others, we recommend renaming controls to something appropriate and hopefully unique within the app.
+The source code file may expose options that Studio does not.  For example, the ZIndex property is exposed on controls.  In Studio, this isn’t a full fledged property and can only be moved up or down with a static value.  If you put a formula here, the app may not operate properly.
+Distribution
+So, how do you get the cool PASopa tool used above?   To download and use:</p>
+<p>Install .NET Core 3.1.x (x64).
+Clone the repo at <a href="https://github.com/microsoft/PowerApps-Language-Tooling">https://github.com/microsoft/PowerApps-Language-Tooling</a>
+Run build.cmd in the root directory.
+You can find PASopa.exe and needed dependencies in the bin\Debug\PASopa directory.
+More details on building are available in the GitHub readme.</p>
+<p>I did say this was experimental. 🙂 This isn’t going to be for everyone at this time and that is OK.  At this early juncture we are looking for savvy early adopters that can give us good feedback on the directory structure and file format.  Eventually we will be integrating this directly with the Power Apps CLI and it can be run by anyone without needing to do a build.  PASopa is just a test harness that we are using in the meantime.</p>
+<p>We are releasing this tool as open source, and that will still be true even after we integrate with the Power Apps CLI.  We’d love your feedback and issue reports directly through GitHub.  Eventually, we will also welcome your pull requests, but are limiting outside contributions until we are better established.</p>
+<p>YAML File Format
+We adopted a subset of YAML as our file format.  Our first priority was a format that was super easy to read and write by humans.  But we also wanted something that could be embedded in other places within the Power Platform, and many of them use YAML already or are considering this move.   We wanted to leverage existing libraries and tools and not create something completely new.</p>
+<p>There are three unique aspects to how we embed within YAML:</p>
+<p>All formulas start with a leading =.   Just like Excel, the = introduces a formula rather than a static value.   We don’t make you write the leading equals in Power Apps Studio but if you notice the formula bar it is always there.  The leading = also helped us avoid the normal data type interpretation that YAML does for static value, that is not appropriate for formulas.
+Some formulas must be expressed in YAML multi-line.   Using the leading = helps us a great deal, but it doesn’t address everything.  If you have a formula that contains a string with an embedded #, it is interpreted by YAML as the start of a comment, and the rest of the line will be truncated.  In these cases, the formula must be expressed using YAML’s multi-line facilities, most likely being a variant of the | syntax.
+Controls are typed with the As keyword.  Normally YAML has only a single name to the left of the : when providing a property value.  But there is nothing to say that left hand side can’t be more complex and we are taking advantage of this to not only name the property but also provide its type.  We know our use of As here is different from how we use it in ForAll and other record scope functions, and we considered lots of other alternatives, but the resounding feedback from early reviews was to stick with what Visual Basic used.
+Full details on the file format are available in docs included in the GitHub repo.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="section section-on-footer" data-background="https://www.powerplatformportugal.pt/images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="https://formspree.io/f/mwkwyorj" method="POST" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">us@powerplatformportugal.pt</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">TBD</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">TBD</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright © 2021 Power Platform Portugal</p>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://www.powerplatformportugal.pt/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://www.powerplatformportugal.pt/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://www.powerplatformportugal.pt/plugins/slick/slick.min.js"></script>
+
+<script src="https://www.powerplatformportugal.pt/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://www.powerplatformportugal.pt/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://www.powerplatformportugal.pt/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+
+</html>
