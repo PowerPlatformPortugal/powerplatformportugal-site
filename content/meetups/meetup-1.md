@@ -1,10 +1,9 @@
 ---
-categories: ["power automate", "powerbi", "power apps", "power virtual agents"]
+title: "Meetup #1"
 date: 2021-02-11T17:00:00Z
 image: "/images/meetup1.png"
-title: "Meetup #1"
+categories: ["power automate", "powerbi", "power apps", "power virtual agents"]
 draft: false
-
 ---
 
 #### Meetup Topics
