@@ -15,7 +15,7 @@ draft: false
 * Power Platform 
   * Manuel Dias - 10 min
 * Power Apps
-  * Ricardo - 10 min
+  * Ricardo Calejo - 10 min
 * Power Automate
   * Miguel Oliveira - 10 min
 * Power Virtual Agents
