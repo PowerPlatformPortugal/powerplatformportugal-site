@@ -1,10 +1,11 @@
-+++
-categories = ["power automate", "powerbi", "power apps", "power virtual agents"]
-date = 2021-02-11T17:00:00Z
-image = "/images/meetup1.png"
-title = "Meetup #1"
+---
+categories: ["power automate", "powerbi", "power apps", "power virtual agents"]
+date: 2021-02-11T17:00:00Z
+image: "/images/meetup1.png"
+title: "Meetup #1"
+draft: false
 
-+++
+
 #### Meetup Topics
 
 * About Power Platform Portugal 
