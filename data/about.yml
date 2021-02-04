@@ -64,6 +64,6 @@ team:
 # client logo slider
 # not being used
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "Our Sponsors"
   # clients logo comes from 'data/homepage.yml' file
