@@ -27,3 +27,4 @@ fields:
   label: Categories
 pages:
 - content/meetups/meetup-1.md
+- content/meetups/teste.md
