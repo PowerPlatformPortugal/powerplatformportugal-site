@@ -63,7 +63,7 @@ address = "TBD"
 author = "Ricardo Calejo"
 description = "We are Power Platform Portugal"
 # google analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "G-89L8QHPYBN" # Your ID
 # copyright
 copyright = "Copyright &copy; 2021 Power Platform Portugal"
 
