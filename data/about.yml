@@ -27,7 +27,7 @@ team:
   team_member:
     - title : "Manuel Dias"
       image : "images/about/manuel.dias.jfif"
-      designation : "Nation Technology Officer at Microsoft"
+      designation : "National Technology Officer at Microsoft"
       linkedinUrl: "https://www.linkedin.com/in/mdias/"
       
     - title : "Rodrigo Umbelino"
