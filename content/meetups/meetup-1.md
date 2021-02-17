@@ -5,6 +5,7 @@ meetupdate: "Feb 11, 2021 15:00"
 image: "/images/meetup1.png"
 categories: ["power automate", "powerbi", "power apps", "power virtual agents"]
 order: 1
+youtubevideourl: https://www.youtube.com/embed/DG3f5CWiEN8
 draft: false
 ---
 
