@@ -48,6 +48,11 @@ URL = "contact"
 name = "Contact Us"
 weight = 4
 
+[[menu.main]]
+URL = "https://www.meetup.com/pt-BR/power_platform_portugal/"
+name = "Join Us on Meetup"
+weight = 5
+
 
 # default parameters
 [params]
