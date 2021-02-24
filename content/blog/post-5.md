@@ -1,6 +1,6 @@
 ---
 title: "Introducing Power Apps mobile app’s new look (public preview)"
-date: 2021-02-1912:14:34+06:00
+date: 2021-02-19T12:14:34+06:00
 image: "https://media0.giphy.com/media/QncQXSDZ6t3O8mYbwK/giphy.gif"
 description: "Power Apps mobile has a “new look” and its now available in public preview. We’ve introduced new experiences like a home page to access your commonly used content and gesture controls to easily favorite or shortcut an app to your home screen. When you update Power Apps from your app store, you can turn on the new look and give us feedback directly from the side menu. Check out this blog to learn more!"
 draft: false

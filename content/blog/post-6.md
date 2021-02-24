@@ -1,6 +1,6 @@
 ---
 title: "Use “Edit in Excel” in Dataverse for Teams"
-date: 2021-02-2212:14:34+06:00
+date: 2021-02-22T12:14:34+06:00
 image: "https://powerappsblogscdn.azureedge.net/wp-content/uploads/2021/02/Edit-in-Excel-Entry-point-DV4T.png"
 description: "Customers can now use “Edit in Excel” to move data between Excel and Dataverse for Teams."
 draft: false
