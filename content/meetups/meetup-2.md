@@ -11,10 +11,10 @@ draft: false
 
 #### Meetup Agenda
 
-17:00 – 17:05 | Welcome and Quick Update
-17:05 - 17:30 | Power Platform Ignite Announcements
-17:30 - 18:20 | Power Apps 101: the journey begins!
-18:20 - 18:30 | Q&A & Feedback
+* 17:00 – 17:05 | Welcome and Quick Update
+* 17:05 - 17:30 | Power Platform Ignite Announcements
+* 17:30 - 18:20 | Power Apps 101: the journey begins!
+* 18:20 - 18:30 | Q&A & Feedback
 
 #### Meetup Description
 
