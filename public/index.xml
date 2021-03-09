@@ -6,14 +6,50 @@
     <description>Recent content on Power Platform Portugal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.powerplatformportugal.pt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.powerplatformportugal.pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meetup #2</title>
+      <link>https://www.powerplatformportugal.pt/meetups/meetup-2/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.powerplatformportugal.pt/meetups/meetup-2/</guid>
+      <description>Meetup Agenda 17:00 – 17:05 | Welcome and Quick Update 17:05 - 17:30 | Power Platform Ignite Announcements 17:30 - 18:20 | Power Apps 101: the journey begins!</description>
+    </item>
+    
+    <item>
+      <title>Use “Edit in Excel” in Dataverse for Teams</title>
+      <link>https://www.powerplatformportugal.pt/blog/post-6/</link>
+      <pubDate>Mon, 22 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://www.powerplatformportugal.pt/blog/post-6/</guid>
+      <description>We are excited to announce the general availability of the Edit in Excel feature in Dataverse for Teams.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Power Apps mobile app’s new look (public preview)</title>
+      <link>https://www.powerplatformportugal.pt/blog/post-5/</link>
+      <pubDate>Fri, 19 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://www.powerplatformportugal.pt/blog/post-5/</guid>
+      <description>We are thrilled to announce the public preview of the new app selection and discovery experience for Power Apps mobile.</description>
+    </item>
+    
     <item>
       <title>Meetup #1</title>
       <link>https://www.powerplatformportugal.pt/meetups/meetup-1/</link>
-      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.powerplatformportugal.pt/meetups/meetup-1/</guid>
       <description>Meetup Topics  About Power Platform Portugal  Manuel Dias - 5 min   The Team  Everyone - 10 min   Power Platform  Manuel Dias - 10 min   Power Apps  Ricardo Calejo - 10 min   Power Automate  Miguel Oliveira - 10 min   Power Virtual Agents  Pedro Pardal - 10 min   AI Builder  Sérgio Viana - 10 min   Power BI  Rodrigo Umbelino - 10 min   Dataverse  Ruben - 10 min    Meetup Description  Join us on Meetup!</description>
+    </item>
+    
+    <item>
+      <title>Now available: model-driven app push notifications</title>
+      <link>https://www.powerplatformportugal.pt/blog/post-4/</link>
+      <pubDate>Thu, 20 Aug 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://www.powerplatformportugal.pt/blog/post-4/</guid>
+      <description>Push notifications are ubiquitous today for engaging users and helping them prioritize key tasks, including canvas Power Apps apps.</description>
     </item>
     
     <item>
