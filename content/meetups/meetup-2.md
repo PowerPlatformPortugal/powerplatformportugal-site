@@ -4,7 +4,7 @@ date: 2021-03-09
 meetupdate: "Mar 18, 2021 17:00"
 image: "https://secure.meetupstatic.com/photos/event/a/1/e/9/highres_495101449.jpeg"
 categories: ["power apps"]
-order: 1
+order: 2
 youtubevideourl: https://www.youtube.com/embed/fS2qHenGQIo
 draft: false
 ---
@@ -30,7 +30,5 @@ During this journey, I've been helping Microsoft partners on adopting and creati
 
 - All presented times are Lisbon Time
 - Sessions will be presented in Portuguese
-
---- Weblink to the session to be shared close to the session date ---
 
 If you have any questions, please feel free to contact us at powerplatformportugal@gmail.com
