@@ -5,7 +5,7 @@ meetupdate: "Apr 22, 2021 17:00"
 image: "https://secure.meetupstatic.com/photos/event/9/e/2/f/highres_495580495.jpeg"
 categories: ["power automate"]
 order: 1
-youtubevideourl: 
+youtubevideourl: https://www.youtube.com/embed/i7Z6A6sIDtE
 draft: false
 ---
 
