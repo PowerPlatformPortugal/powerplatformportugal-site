@@ -4,7 +4,7 @@ date: 2021-03-09
 meetupdate: "Mar 18, 2021 17:00"
 image: "https://secure.meetupstatic.com/photos/event/a/1/e/9/highres_495101449.jpeg"
 categories: ["power apps"]
-order: 2
+order: 3
 youtubevideourl: https://www.youtube.com/embed/fS2qHenGQIo
 draft: false
 ---
