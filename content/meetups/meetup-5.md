@@ -1,11 +1,11 @@
 ---
-title: "Meetup #5"
+title: "Meetup #5 - Power Virtual Agents 101: build your own virtual chatbots!"
 date: 2021-06-15
 meetupdate: "June 23, 2021 17:00"
 image: "https://secure-content.meetupstatic.com/images/https%3A%2F%2Fsecure.meetupstatic.com%2Fphotos%2Fevent%2Fe%2F8%2Fc%2Fc%2Fhighres_496919596.jpeg/600x337.jpg"
 categories: ["power virtual agents"]
-order: 1
-youtubevideourl: 
+order: 6
+youtubevideourl: https://www.youtube.com/embed/DZFXJVaot2M
 draft: false
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "Meetup #4"
+title: "Meetup #4 - Use Case Extravaganza: Partner Edition!"
 date: 2021-04-28
 meetupdate: "May 13, 2021 17:00"
 image: "https://secure.meetupstatic.com/photos/event/5/e/e/8/highres_495984296.jpeg"
 categories: ["power automate", "powerbi", "power apps", "power virtual agents"]
-order: 2
+order: 7
 youtubevideourl: https://www.youtube.com/embed/ksYlcuTJsxc
 draft: false
 ---

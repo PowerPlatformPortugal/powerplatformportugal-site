@@ -1,10 +1,10 @@
 ---
-title: "Meetup #3"
+title: "Meetup #3 - Power Automate 101: getting started with Hyperautomation!"
 date: 2021-04-07
 meetupdate: "Apr 22, 2021 17:00"
 image: "https://secure.meetupstatic.com/photos/event/9/e/2/f/highres_495580495.jpeg"
 categories: ["power automate"]
-order: 3
+order: 8
 youtubevideourl: https://www.youtube.com/embed/i7Z6A6sIDtE
 draft: false
 ---
